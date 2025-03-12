@@ -7,9 +7,9 @@
     ],
     "schemaFiles":
     [
-        {"fileName":"Excels\\__tables__.xlsx", "type":"table"}
+        {"fileName":"__tables__.xlsx", "type":"table"}
     ],
-    "dataDir": "Excels",
+    "dataDir": ".",
     "targets":
     [
         {"name":"server", "manager":"Tables", "groups":["s"], "topModule":"cfg"},

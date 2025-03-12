@@ -1,4 +1,3 @@
 set GEN_CLIENT=tools\Luban\Luban.dll
-set CONF_ROOT=Excels\
 
-dotnet %GEN_CLIENT% -t client -c cs-simple-json -d json --conf Luban.json -x outputCodeDir=Gen\Code -x outputDataDir=Gen\Data
+dotnet %GEN_CLIENT% -t client -c cs-simple-json -d json --conf Excels\Luban.json -x outputCodeDir=..\gofire\Assets\Script\GameLogic\Config\GenCode -x outputDataDir=..\gofire\Assets\DataRes\Config
